@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/46/ac/9e/46ac9e282d3c303934a72d941845785b.gif");
+    background-size: 129rem;
+    background-repeat: no-repeat;
+}
+
+.player{
+    width: 200px;
+    height: 245px;
+    position: absolute;
+    bottom: 0;
+    background-image: url("https://bengsfort.github.io/assets/pixel-art/MainCharacter_32x32_run.gif");
+}
+
+.enemy{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    background-color: red;
+}
+
+.end-game{
+    display: flex;
+    justify-content: center;
+    padding: 20rem;
+    background: #bdbdbd8a;
+}
